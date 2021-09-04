@@ -10,6 +10,11 @@ function getResult(){
     var result= document.getElementById("inpt");
     result.value = eval(result.value);
 }
+function percentage() {
+    var result= document.getElementById("inpt");
+    result.value = eval(result.value)/100;
+    
+}
 //clearResult
 function clearResult(){
     var result= document.getElementById("inpt"); 
